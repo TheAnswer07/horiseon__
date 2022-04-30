@@ -8,23 +8,25 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+header {
     padding: 20px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* “nav” targeted instead of the initial "div" that it was */
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +34,10 @@ body {
     font-size: 20px;
 }
 
-.header li {
+/* only targeted the “li” from the header and 
+got rid of the remaining elements -div ul - in css */
+
+header li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -84,7 +89,9 @@ p {
     background-color: #2589bd;
 }
 
-#advantages {
+/* class “advantages” targeted to reduce the amount of code | added “text-align: center” for aesthetics */
+
+.advantages {
     margin-bottom: 32px;
     color: #ffffff;
     text-align: center;
@@ -95,13 +102,17 @@ p {
     text-align: center;
 }
 
-#advantages img {
+/* “img” targeted thanks to class “advantages” to reduce the amount of code */
+
+.advantages img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-#solutions {
+/* class “solutions” targeted to reduce the amount of code */
+
+.solutions {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -110,22 +121,19 @@ p {
     color: #ffffff;
 }
 
-#solutions img {
+/* “img” targeted thanks to class “solutions” to reduce the amount of code */
+
+.solutions img {
     max-height: 200px;
 }
 
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
