@@ -34,10 +34,10 @@ header nav {
     font-size: 20px;
 }
 
-/* only targeted the “li” from the header and 
+/* only targeted the “li” via the new nav and 
 got rid of the remaining elements -div ul - in css */
 
-header li {
+nav li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -48,8 +48,12 @@ a {
     text-decoration: none;
 }
 
+/* added margin-top: 20px and text-align: left to all paragraphs */
+
 p {
     font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
 }
 
 .main {
