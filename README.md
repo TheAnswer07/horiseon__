@@ -1,20 +1,14 @@
-# horiseon
 # Horiseon website code refactor
 ​
 ## Table of contents
 ​
-  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
-  - [Screenshot](#screenshot)
-  - [My process](#my-process)
-  - [What I learned](#what-i-learned)
+  - [Solution](#solution)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-​
-## Overview
 ​
 ### The challenge
 ​
@@ -42,74 +36,160 @@ The objective of this challenge is to work with someone else's code (Scout Rule)
 •	THEN I find a concise, descriptive title
 
 ​
-### Screenshot
-​
-![](./screenshot.jpg)
-​
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-​
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-​
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-​
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+### Solution
+
+•	HTML changes:
+
+1.	Updated the website's name/title from "website to "Horiseon website"
+
+  <title>Horiseon website</title>
+
+
+2.	Changed the first div of the body into “header”
+
+    <header>
+        <h1>Hori<span class="seo">seo</span>n</h1>
+
+
+3.	Changed this div into "nav" with class=”main-nav”
+
+<nav class=”main-nav”>
+
+4.	Class "main" created to replace "hero" to be more meaningful regarding the main image
+
+<nav class=”main-nav”>
+
+5.	Class "main" created to replace "hero" to be more meaningful regarding the main image
+
+    <main class="main"></main>
+
+6.	Class “solutions” added to the section ”content" in order to replace class="search-engine optimization", class="online-reputation-management", class="social-media-marketing" and got rid of the extra class
+
+<section class="content">
+        <div class="solutions">
+
+7.	Class “advantages” added to the section ”benefits" in order to replace class="benefit-lead", class="benefit-brand", class="benefit-cost" and got rid of the extra class
+
+<section class="benefits">
+        <div class="advantages">
+
+8.	Changed the div for the footer into just “footer”
+
+<footer>
+        <h2>Made with ❤️️ by Horiseon</h2>
+            <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+    </footer>
+
+
+•	CSS changes:
+
+1.	“nav” targeted instead of the initial "div" that it was
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+2.	“nav” targeted instead of the initial "div" that it was
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+3.	Only targeted the “li” via the new nav and got rid of the remaining elements -div ul - in css
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+4.	Added margin-top: 20px and text-align: left to all paragraphs
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+5.	Added margin-top: 20px and text-align: left to all paragraphs
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+6.	Added padding-bottom: 20px to "main"
+
+.main {
+    …
+    padding-bottom: 20px;
+}
+
+
+7.	Class “advantages” targeted to reduce the amount of code | Added “text-align: center” for aesthetics
+
+.advantages {
+    margin-bottom: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+8.	“img” targeted thanks to class “advantages” to reduce the amount of code
+
+.advantages img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+9.	Class “solutions” targeted to reduce the amount of code
+
+.solutions {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+10.	“img” targeted thanks to class “solutions” to reduce the amount of code
+
+.solutions img {
+    max-height: 200px;
+}
+
+
 ​
 ### Links
 ​
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: git@github.com:TheAnswer07/horiseon.git
+- Live Site URL: file:///Users/md/Desktop/bootcamp/homework/horiseon/index.html#social-media-marketingcom)
 ​
 ## My process
 ​
 ### Built with
 ​
-- Semantic HTML5 markup
+- HTML5
 - CSS
-​
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-​
-### What I learned
-​
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-​
-To see how you can add code snippets, see below:
-​
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-​
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-​
-If you want more help with writing markdown, check out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-​
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-​
-### Continued development
-​
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-​
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-​
-### Useful resources
-​
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-​
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 ​
 ## Author
 ​
-- Website - [Add your name here](https://www.your-site.com)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+Moussa Dia
 ​
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 ​
 ## Acknowledgments
 ​
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-​
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I worked with my cohort Jack Youkstetter for 15 minutes reviewing and polishing part of this code. It was a great and appreciated collaboration.
