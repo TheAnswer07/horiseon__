@@ -34,7 +34,7 @@ header nav {
     font-size: 20px;
 }
 
-/* only targeted the “li” via the new nav and 
+/* Only targeted the “li” via the new nav and 
 got rid of the remaining elements -div ul - in css */
 
 nav li {
@@ -43,18 +43,27 @@ nav li {
     margin-left: 25px;
 }
 
+#main-nav {
+    max-width: 500px; 
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* added margin-top: 20px and text-align: left to all paragraphs */
+/* Added margin-top: 20px and text-align: left to all paragraphs */
 
 p {
     font-size: 16px;
     margin-top: 20px;
     text-align: left;
 }
+
+/* Added padding-bottom: 20px to "main"*/
 
 .main {
     height: 800px;
@@ -93,7 +102,9 @@ p {
     background-color: #2589bd;
 }
 
-/* class “advantages” targeted to reduce the amount of code | added “text-align: center” for aesthetics */
+/* Class “advantages” targeted 
+to reduce the amount of code | 
+Added “text-align: center” for aesthetics */
 
 .advantages {
     margin-bottom: 32px;
@@ -106,7 +117,8 @@ p {
     text-align: center;
 }
 
-/* “img” targeted thanks to class “advantages” to reduce the amount of code */
+/* “img” targeted thanks to class “advantages” 
+to reduce the amount of code */
 
 .advantages img {
     display: block;
@@ -114,7 +126,8 @@ p {
     max-width: 150px;
 }
 
-/* class “solutions” targeted to reduce the amount of code */
+/* Class “solutions” targeted 
+to reduce the amount of code */
 
 .solutions {
     margin-bottom: 20px;
@@ -125,7 +138,8 @@ p {
     color: #ffffff;
 }
 
-/* “img” targeted thanks to class “solutions” to reduce the amount of code */
+/* “img” targeted thanks to class “solutions” 
+to reduce the amount of code */
 
 .solutions img {
     max-height: 200px;
