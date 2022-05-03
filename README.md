@@ -68,6 +68,7 @@ The objective of this challenge is to work with someone else's code (Scout Rule)
 <section class="content">
         <div class="solutions">
 
+<<<<<<< HEAD
 7.	Created id="search-engine-optimization", id="online-reputation-management" and id="online-reputation-management" in order to target them to scroll to their respective sections on the website when clicked on from the navbar.
 
 <div class="solutions" id="search-engine-optimization">
@@ -78,11 +79,18 @@ The objective of this challenge is to work with someone else's code (Scout Rule)
 
 
 8.	Class “advantages” added to the section ”benefits" in order to replace class="benefit-lead", class="benefit-brand", class="benefit-cost" and got rid of the extra class
+=======
+7.	Class “advantages” added to the section ”benefits" in order to replace class="benefit-lead", class="benefit-brand", class="benefit-cost" and got rid of the extra class
+>>>>>>> 52cf719ca52c2ea9c793e56b697f9dfa68c171ba
 
 <section class="benefits">
         <div class="advantages">
 
+<<<<<<< HEAD
 9.	Changed the div for the footer into just “footer”
+=======
+8.	Changed the div for the footer into just “footer”
+>>>>>>> 52cf719ca52c2ea9c793e56b697f9dfa68c171ba
 
 <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
@@ -201,4 +209,8 @@ Moussa Dia
 ​
 ## Acknowledgments
 ​
+<<<<<<< HEAD
 I worked with my cohort Jack Youkstetter for 15 minutes reviewing and polishing part of this code. It was a great and appreciated collaboration.
+=======
+I worked with my cohort Jack Youkstetter for 15 minutes reviewing and polishing part of this code. It was a great and appreciated collaboration.
+>>>>>>> 52cf719ca52c2ea9c793e56b697f9dfa68c171ba
