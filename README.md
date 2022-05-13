@@ -5,6 +5,7 @@
   - [The challenge](#the-challenge)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
+  - [Screenshot of the Website](#website-screenshot)
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
@@ -34,7 +35,9 @@ The objective of this challenge is to work with someone else's code (Scout Rule)
 •	WHEN I view the title element
 •	THEN I find a concise, descriptive title
 
-​
+​​
+### Screenshot of the Website
+
 ![Application Screenshot](./assets/images/Website%20screenshot.png)
 
 ​
