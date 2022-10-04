@@ -1,4 +1,4 @@
-# Horiseon website code refactor
+# Horiseon
 ​
 ## Table of contents
 ​
